@@ -1,7 +1,7 @@
 import React from 'react';
 import LazyLoad from 'react-lazy-load';
 
-export default class Ad extends React.Component {
+export default class Advert extends React.Component {
   static propTypes = {
     format: React.PropTypes.oneOf(['mrec', 'halfpage']),
   }
@@ -10,7 +10,7 @@ export default class Ad extends React.Component {
     halfpage: { x: 300, y: 500 }
   }
   render() {
-    const size = Ad.formats[this.props.format];
+    const size = Advert.formats[this.props.format];
     const uri = `http://placecage.com/${size.x}/${size.y}`;
     return (
       <LazyLoad height={size.y}>

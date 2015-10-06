@@ -1,16 +1,16 @@
 {
-  "name": "component-ad",
+  "name": "component-advert",
   "version": "1.0.0",
-  "description": "Displays an ad on the page.",
+  "description": "Displays an advert on the page.",
   "author": "The Economist (http://economist.com)",
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fabiosantoscode/component-ad.git"
+    "url": "git+https://github.com/fabiosantoscode/component-advert.git"
   },
-  "homepage": "https://github.com/fabiosantoscode/component-ad#readme",
+  "homepage": "https://github.com/fabiosantoscode/component-advert#readme",
   "bugs": {
-    "url": "https://github.com/fabiosantoscode/component-ad/issues"
+    "url": "https://github.com/fabiosantoscode/component-advert/issues"
   },
   "main": "index.js",
   "files": [

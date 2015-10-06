@@ -1,5 +1,5 @@
 import React from 'react';
-import Ad from './index';
+import Advert from './index';
 
 export default (
   <div>
@@ -13,7 +13,7 @@ export default (
     <p>...</p>
     <p>...</p>
     <p>Mrec:</p>
-    <Ad format="mrec" />
+    <Advert format="mrec" />
     <p>Halfpage:</p>
-    <Ad format="halfpage" />
+    <Advert format="halfpage" />
   </div>);
