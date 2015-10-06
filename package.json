@@ -127,7 +127,8 @@
   },
   "dependencies": {
     "@economist/component-devpack": "^3.4.3",
-    "react": "^0.13.3"
+    "react": "^0.13.3",
+    "react-lazy-load": "^1.0.4"
   },
   "devDependencies": {
     "babel": "^5.8.23",

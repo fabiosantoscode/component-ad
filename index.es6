@@ -1,4 +1,5 @@
 import React from 'react';
+import LazyLoad from 'react-lazy-load';
 
 export default class Ad extends React.Component {
   static propTypes = {
@@ -12,7 +13,9 @@ export default class Ad extends React.Component {
     const size = Ad.formats[this.props.format];
     const uri = `http://placecage.com/${size.x}/${size.y}`;
     return (
-      <img src={uri}/>
+      <LazyLoad height={size.y}>
+        <img src={uri}/>
+      </LazyLoad>
     );
   }
 }

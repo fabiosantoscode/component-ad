@@ -3,6 +3,15 @@ import Ad from './index';
 
 export default (
   <div>
+    <p>...</p>
+    <p>...</p>
+    <p>...</p>
+    <p>...</p>
+    <p>...</p>
+    <p>...</p>
+    <p>...</p>
+    <p>...</p>
+    <p>...</p>
     <p>Mrec:</p>
     <Ad format="mrec" />
     <p>Halfpage:</p>
